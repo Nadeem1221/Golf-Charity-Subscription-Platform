@@ -5,10 +5,10 @@ Hey there! Welcome to the Golf Charity Platform. I built this full-stack MERN ap
 It handles everything from user subscriptions via Stripe, to calculating dynamic monthly prize pools, and generating algorithmic lottery draws based on players' actual golf scores!
 
 ## 🚀 Tech Stack
-- **Frontend:** React 18, React Router v6
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB Atlas
-- **Payments:** Stripe (Checkout Sessions + Webhooks)
+- **Frontend:**  React 18, React Router v6
+- **Backend:**   Node.js, Express.js
+- **Database:**  MongoDB Atlas
+- **Payments:**  Stripe (Checkout Sessions + Webhooks)
 - **Auth & Security:** JWT Auth, bcryptjs
 
 ## ⚙️ Quick Local Setup

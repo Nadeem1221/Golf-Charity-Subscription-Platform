@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 
 // Public pages
-import HomePage       from './pages/public/HomePage';
-import CharitiesPage  from './pages/public/CharitiesPage';
+import HomePage        from './pages/public/HomePage';
+import CharitiesPage   from './pages/public/CharitiesPage';
 import CharityDetail  from './pages/public/CharityDetail';
 import HowItWorks     from './pages/public/HowItWorks';
 import SubscribePage  from './pages/public/SubscribePage';
