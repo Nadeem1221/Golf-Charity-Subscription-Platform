@@ -22,6 +22,7 @@ export default function AdminCharities() {
     setLoading(false);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchCharities(); }, []);
 
   const openCreate = () => { setForm(EMPTY_FORM); setEditId(null); setShowForm(true); };

@@ -33,6 +33,7 @@ export default function AdminUserDetail() {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchUser(); }, [id]);
 
   const handleScoreSave = async () => {

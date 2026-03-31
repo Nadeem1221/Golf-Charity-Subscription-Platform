@@ -29,6 +29,7 @@ export default function ScoresPage() {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchScores(); }, []);
 
   // ── Add score ──────────────────────────────────────────

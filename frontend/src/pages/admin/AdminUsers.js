@@ -27,6 +27,7 @@ export default function AdminUsers() {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchUsers(); }, [page, status]);
 
   const handleSearch = (e) => {

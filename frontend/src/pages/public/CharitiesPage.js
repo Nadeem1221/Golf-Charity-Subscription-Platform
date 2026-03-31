@@ -31,6 +31,7 @@ export default function CharitiesPage() {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchCharities(); }, [page, category]);
 
   const handleSearch = (e) => {

@@ -26,6 +26,7 @@ export default function AdminDrawDetail() {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchDraw(); }, [id]);
 
   const handleSimulate = async () => {

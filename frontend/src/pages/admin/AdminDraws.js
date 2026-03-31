@@ -17,6 +17,7 @@ export function AdminDraws() {
     setLoading(false);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchDraws(); }, []);
 
   const handleCreate = async (e) => {

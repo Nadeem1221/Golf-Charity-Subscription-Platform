@@ -28,6 +28,7 @@ export default function AdminWinners() {
     }
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchWinners(); }, [filters]);
 
   const flash = (type, msg) => {
