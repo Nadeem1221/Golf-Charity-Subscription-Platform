@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Golf Charity Subscription Platform - Digital Heroes",
   "scripts": {
+    "start": "npm start --prefix backend",
+    "build": "npm install --prefix backend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm start",
